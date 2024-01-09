@@ -2,8 +2,15 @@
 
 <head>
     <title>How watches work</title>
-    <style>
-        
+   <style>
+   #vid {
+            border-radius: 25px;
+  width: 550px;
+  border: 5px solid black;
+  padding: 30px;
+  margin: 2px;
+  background-color:rgb(210,210,210);
+  }
       button{
         background-color:rgb(188, 255, 188);
         font-size: 12px;
@@ -15,41 +22,45 @@
       }
       button:hover{
         background-color:rgb(10,255,27);}
-           div {
-                 border-radius: 25px;
+    #content {
+            border-radius: 25px;
   width: 750px;
   border: 5px solid black;
   padding: 30px;
   margin: 2px;
-  background-color:rgb(210,210,210);}
-      body{
-        background-color:rgb(10,120,100);
-      }
-      h1{
+  background-color:rgb(210,210,210);
+  top: -390px;
+  }
+   h1{
         color:rgb(34,143,14);
         background-color:rgb(0,0,0);
-      }
-      h2{
-        font-style: italic;
-        text-decoration: underline;
-        font-weight: bold;
-      }
-     
-    </style>
+        text-align:center;
+        }
+          #sub{
+        color:rgb(34,143,14);
+        background-color:rgb(0,0,0);
+    
+        }
+   body{
+        background-color:rgb(10,120,100);
+        }
+</style>
   
   </head>
   
   <body>
       
  <button><a href = "index.html" target="_blank"> Home </a></button>
-      
-    <h1>On this page i will show you how a simple mechanical watch works!</h1>
-    
+      <h1>
+      How a mehcanical watch works
+      </h1>
+    <h2 id = "sub">On this page i will show you how a simple mechanical watch works!</h2>
+    <div style =  "position:relative; left:900px;" id = "vid">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/d_pV8TGKfMc?si=_v5odanmgAoVsqRN" 
       title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
       allowfullscreen></iframe>
-    <p> This is a 5 minute video about how mechanical watches work i will sumerise this video into a short list! </p>
-   <div style = "position:relative; left:65px;" "position:relative; :80px;"> 
+      </div>
+   <div style = "position:relative; left:65px;"  id = "content" > 
     <h2 class = "subtitle"> Power source</h2>
     <ul>
       <li> Unlike in a quarts watch( which is powerd by battery) power in a mechanical watch comes from the mainspring which is stored in a mainspring barell </li>
